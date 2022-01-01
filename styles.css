@@ -12,5 +12,52 @@
 body {
     display: flex;
     justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: white;
 }
 
+input[type=button] {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+input[type=button]:hover {
+    background-color:#E6E6E6;
+}
+
+div#calculator {
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    height: 350px;
+}
+
+input[type=text] {
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0);
+    height: 100px;
+    
+}
+
+
+
+div#first input:nth-child(4) {
+    color: red
+}
+
+div#second input:nth-child(4) {
+    color: red
+}
+
+div#third input:nth-child(4) {
+    color: red
+}
+
+div#fourth input:nth-child(4) {
+    color: red
+}
